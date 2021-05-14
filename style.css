@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.container{
+    padding: 30px;
+}
+
+.logo{
+    width: 150px;
+    height: 40px;
+}
+
+.featured-image{
+    padding-bottom: 40px;
+}
+
+.main-image{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.main-section{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.main-section h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 1.25rem;
+}
+
+.main-section p{
+    font-size: 1.2em;
+    padding-bottom: 50px;
+}
+
+.main-section .btn{
+    background: whitesmoke;
+    color: hsl(257, 40%, 49%);
+    padding: .6rem 4rem;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+.main-section .btn:hover{
+    background: hsl(300, 69%, 71%);
+    color: whitesmoke;
+}
+
+.social-icons{
+    padding-top: 50px;
+}
+
+.fab-icons{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons a{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    color: whitesmoke;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: .8rem;
+  }
+  .attribution a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+

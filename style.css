@@ -15,16 +15,16 @@ body{
 }
 
 .container{
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .logo{
-    width: 150px;
-    height: 40px;
+    width: 9.375rem;
+    height: 2.5rem;
 }
 
 .featured-image{
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .main-image{
@@ -34,32 +34,33 @@ body{
 }
 
 .main-section{
-    margin-bottom: 35px;
+    margin-bottom: 2.188rem;
     text-align: center;
 }
 
 .main-section h1{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     margin-bottom: 1.25rem;
 }
 
 .main-section p{
     font-size: 1.2em;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .main-section .btn{
     background: whitesmoke;
     color: hsl(257, 40%, 49%);
     padding: .6rem 4rem;
+    font-size: 1.25rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     text-decoration: none;
-    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
--webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
--moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 0rem 0.313rem 0.625rem 0rem rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0rem 0.313rem 0.625rem 0rem rgba(0,0,0,0.4);
+    -moz-box-shadow: 0rem 0.313rem 0.625rem 0rem rgba(0,0,0,0.4);
 }
 
 .main-section .btn:hover{
@@ -68,7 +69,7 @@ body{
 }
 
 .social-icons{
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 .fab-icons{
@@ -85,9 +86,9 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
-    width: 50px;
-    height: 50px;
+    margin-right: 1.25rem;
+    width: 3.125rem;
+    height: 3.125rem;
     text-decoration: none;
 }
 
@@ -97,12 +98,52 @@ body{
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.688rem;
     text-align: center;
     padding-bottom: .8rem;
   }
-  .attribution a {
+
+.attribution a {
     color: whitesmoke;
     text-decoration: none;
   }
+
+@media only screen and (min-width: 768px){
+
+    body{
+        background: url(./images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .container{
+        padding: 3.125rem 3.75rem;
+    }
+
+    .main-container{
+        display: flex;
+    }
+
+    .main-section{
+        flex: 1 1 30vw;
+        margin-left: 3.125rem;
+        padding-top: 2.5rem;
+        text-align: left;
+        
+    }
+
+    .main-section h1{
+        font-size: 2.188rem;
+    }
+
+    .fab-icons{
+        justify-content: end;
+    }
+
+    .main-section .btn{
+        padding: 1rem 3.5rem;
+    }
+
+}
 
